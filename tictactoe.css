@@ -22,3 +22,27 @@ button:hover{
     color: white;
     background: green;
 }
+
+.playable{
+    display: grid;
+    width:300px;
+    height: 300px;
+    grid-template-columns: auto auto auto;
+}
+
+.board{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 3px solid black;
+    transition: background 0.2s ease-in-out;
+}
+
+.board:hover{
+    cursor: pointer;
+    background: red;
+}
